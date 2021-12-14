@@ -37,7 +37,14 @@
 
 
 * **Algorithm/model**-
-           SVM(Support vector machine)
+          Use SVM(Support vector machine)
+           
+      	model	                  best_score	 best_params
+         
+      0	svm	                  0.738690	    {'C': 1, 'kernel': 'linear'}
+      1	random_forest	          0.472959	    {'n_estimators': 10}
+      2	logistic_regression       0.693027	    {'C': 1}
+      3	KNeighbors	          0.564031	    {'n_neighbors': 1}
 
 * **Important Libraries**-
           Numpy,
